@@ -40,6 +40,18 @@
                                     <constraint firstAttribute="width" secondItem="jha-mE-sdg" secondAttribute="height" multiplier="1:1" id="Z35-Gs-WP0"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdJ-jU-Vcy">
+                                <rect key="frame" x="100" y="480.5" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="OMd-lN-Plk"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="PeX-g2-4HR"/>
+                                    <constraint firstAttribute="width" secondItem="WdJ-jU-Vcy" secondAttribute="height" multiplier="3:1" id="noe-cc-31p"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -49,9 +61,12 @@
                             <constraint firstItem="toO-0T-shx" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.167411" id="FOu-fL-ksW"/>
                             <constraint firstItem="jha-mE-sdg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.167411" id="LX7-RY-5l6"/>
                             <constraint firstItem="toO-0T-shx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ntd-Hy-N0V"/>
+                            <constraint firstItem="WdJ-jU-Vcy" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0704225" id="UtR-Bn-uxB"/>
+                            <constraint firstItem="WdJ-jU-Vcy" firstAttribute="top" secondItem="jha-mE-sdg" secondAttribute="bottom" constant="90" id="dQD-7u-zqn"/>
                             <constraint firstItem="V3F-LS-X0e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eTX-wg-xsN"/>
                             <constraint firstItem="V3F-LS-X0e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="ego-lU-F6w"/>
                             <constraint firstItem="V3F-LS-X0e" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.167411" id="fOv-I8-JlG"/>
+                            <constraint firstItem="WdJ-jU-Vcy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g1L-ob-zcf"/>
                             <constraint firstItem="toO-0T-shx" firstAttribute="top" secondItem="V3F-LS-X0e" secondAttribute="bottom" constant="35" id="wSF-T8-10I"/>
                         </constraints>
                     </view>
